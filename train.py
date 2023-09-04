@@ -10,7 +10,7 @@ from models.model import *
 
 
 
-video_wd = "/project/CollabRoboGroup/msy9an/data/ntu/fe_embed"
+video_wd = "<path_to_rgb_features>"
 
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('action', metavar='N', type=int, nargs='+', help='an integer for the accumulator')
@@ -142,7 +142,7 @@ def newtemporalizeVideoi3d(video_file, video_indices):
     return temporalized_video
 
 def loadextractedFlow(video_files, video_indices):
-    fe_embed = '/project/CollabRoboGroup/msy9an/data/mhad/flow_embed'
+    fe_embed = '<path_to_extracted_features>'
     flow_features = list(); previous_videofile = ""
     for i, video_index in enumerate(video_indices):
         
