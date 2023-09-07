@@ -3,7 +3,7 @@ Code for IMPRINT: Interactional Dynamics-aware Multi-agent Motion Prediction usi
 
 # Instruction
 
-Our implementation requires extracting rgb features separately for efficient training. We have provided a [feature_extract.py](./utils/feature_extract.py) script. Replace the path to video file and the path to store
+Our implementation requires download skeleton and rgb data for [here](https://rose1.ntu.edu.sg/dataset/actionRecognition/). In addition, we suggest extracting rgb features separately for efficient training. We have provided a [feature_extract.py](./utils/feature_extract.py) script. Replace the path to video file and the path to store
 extracted features.
 
 ## Training IMPRINT
